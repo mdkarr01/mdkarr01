@@ -1,0 +1,411 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"subm",
+				"submitted"
+			],
+			[
+				"tmp",
+				"tmp_name"
+			],
+			[
+				"e_",
+				"e_location"
+			],
+			[
+				"e",
+				"e_location"
+			],
+			[
+				"et",
+				"et"
+			],
+			[
+				"e_d",
+				"e_date"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"new",
+				"newdate"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"ed",
+				"e_day"
+			],
+			[
+				"cu",
+				"cutoff"
+			],
+			[
+				"sub",
+				"submitted"
+			],
+			[
+				"s",
+				"submit"
+			],
+			[
+				"html",
+				"htmlentities"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"mysqli_fetc",
+				"mysqli_fetch_array"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"ro",
+				"mysqli_num_rows"
+			],
+			[
+				"mysql",
+				"mysql_connect"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"m",
+				"maxlength\tAttr"
+			],
+			[
+				"include",
+				"include_once"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"mys",
+				"mysql_error"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"firs",
+				"first_name"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 367.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 411.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib2,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/michaelkarr/Sites/mike/admin/class/show_image.php",
+		"/Users/michaelkarr/Sites/mike/admin/class/images.php",
+		"/Users/michaelkarr/Sites/mike/admin/class/login_functions2.inc.php",
+		"/Users/michaelkarr/Sites/mike/admin/class/upload_image.php",
+		"/Users/michaelkarr/Sites/mike/admin/upload_image.php",
+		"/Users/michaelkarr/Sites/mike/admin/add_date.php",
+		"/Users/michaelkarr/Sites/mike/admin/add_date3.php",
+		"/Users/michaelkarr/Sites/mike/index.php",
+		"/Users/michaelkarr/Sites/mike/admin/stylesheets/style.css",
+		"/Users/michaelkarr/Sites/mike/admin/email.php",
+		"/Users/michaelkarr/Sites/mike/email.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_dates.php",
+		"/Users/michaelkarr/Sites/mike/admin/edit_dates.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_dates2.php",
+		"/Users/michaelkarr/Sites/mike/admin/index.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_dates3.php",
+		"/Users/michaelkarr/Sites/mike/robots.txt",
+		"/Users/michaelkarr/Sites/mike/.gitignore",
+		"/Users/michaelkarr/Sites/mike/admin/view_users.php",
+		"/Users/michaelkarr/Sites/mike/admin/save.php",
+		"/Users/michaelkarr/Sites/mike/admin/delete_dates1.php",
+		"/Users/michaelkarr/Sites/mike/admin/delete_dates.php",
+		"/Users/michaelkarr/Sites/mike/index2.php",
+		"/Users/michaelkarr/Sites/mike/admin/edit_user.php",
+		"/Users/michaelkarr/Sites/mike/admin/report-errors.php",
+		"/Users/michaelkarr/Sites/mike/admin/register.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/login_functions.inc.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/report-errors.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/header.html",
+		"/Users/michaelkarr/Sites/mike/admin/phpini.php",
+		"/Users/michaelkarr/Sites/mike/admin/add_date2.php",
+		"/Users/michaelkarr/Sites/mike/haha.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/footer.html",
+		"/Users/michaelkarr/Sites/mike/admin/includes/date_functions.inc.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/footer.inc.php",
+		"/Users/michaelkarr/Sites/mike/admin/add_date1.php",
+		"/Users/michaelkarr/Sites/mike/admin/login.php",
+		"/Users/michaelkarr/Sites/mike/admin/post-message.php",
+		"/Users/michaelkarr/Sites/mike/admin/xss.php",
+		"/Users/michaelkarr/Sites/mike/admin/delete_user.php",
+		"/Users/michaelkarr/Sites/mike/admin/widget.php",
+		"/Users/michaelkarr/Sites/mike/admin/password.php",
+		"/Users/michaelkarr/Sites/mike/admin/phptest.php",
+		"/Users/michaelkarr/Sites/mike/admin/logout.php",
+		"/Users/michaelkarr/Sites/mike/admin/loggedin.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_users1.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/login_page.inc.php",
+		"/Users/michaelkarr/Sites/mike/admin/logout1.php",
+		"/Users/michaelkarr/Sites/mike/admin/register1.php",
+		"/Users/michaelkarr/Sites/mike/register1.php",
+		"/Users/michaelkarr/Google Drive/Sites/widget_corp/includes/functions.php",
+		"/Users/michaelkarr/Google Drive/Sites/widget_corp/includes/validation_functions.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/login_functions.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/login_page.php",
+		"/Users/michaelkarr/Sites/mike/admin/loggedin1.php",
+		"/Users/michaelkarr/Sites/mike/admin/login1.php",
+		"/Users/michaelkarr/Sites/mike/admin/login2.php",
+		"/Users/michaelkarr/Sites/mike/login2.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/loggedin.php",
+		"/Users/michaelkarr/Sites/mike/admin/datetime.php",
+		"/Users/michaelkarr/Sites/mike/phpini.php",
+		"/Users/michaelkarr/Sites/mike/admin/emai.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_users2.php",
+		"/Users/michaelkarr/Sites/mike/stylesheets/app.css",
+		"/Users/michaelkarr/Sites/mike/admin/edit_user1.php",
+		"/Users/michaelkarr/Sites/mike/admin/delete_user1.php",
+		"/Users/michaelkarr/Sites/mike/admin/view_users3.php",
+		"/Users/michaelkarr/Sites/mike/admin/password1.php",
+		"/Users/michaelkarr/Library/Application Support/Sublime Text 3/Packages/Side-by-Side Settings/CHANGELOG.md",
+		"/Users/michaelkarr/Library/Application Support/Sublime Text 3/Packages/Side-by-Side Settings/Default.sublime-keymap",
+		"/Users/michaelkarr/Sites/mike/admin/login_page.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/header.php",
+		"/Users/michaelkarr/Sites/phpmyadmin/libraries/di/AliasItem.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/PasswordHash.php",
+		"/Users/michaelkarr/Sites/mike/includes/header.php",
+		"/Users/michaelkarr/Sites/mike/admin/includes/footer.php",
+		"/Users/michaelkarr/Sites/mike/admin/errors.php",
+		"/Users/michaelkarr/Sites/mike/info.php",
+		"/Users/michaelkarr/Sites/mike/past_dates.html",
+		"/Users/michaelkarr/Sites/mike/home.html",
+		"/Users/michaelkarr/Sites/mike/admin/handle_form.php",
+		"/Users/michaelkarr/Sites/mike/scss/app.scss",
+		"/Users/michaelkarr/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"register1.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"url",
+			"chosen",
+			"form",
+			"event_id",
+			"user_id",
+			"event_id",
+			"user_id",
+			"event_id",
+			"user_id",
+			"user_id\t",
+			"DATE_FORMAT(regdate, '%M %d, %Y') AS date",
+			"tr",
+			"esite",
+			"input",
+			"maxsize",
+			"length"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"e_site",
+			"select",
+			"maxlength",
+			"size"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"admin/delete_user.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
