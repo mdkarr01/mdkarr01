@@ -6712,7 +6712,7 @@ th.hide-for-touch {
   border-color: #125688;
 }
  
-#bullets li:last child {
+li:last-child {
   list-style-type: none;
 }
 
