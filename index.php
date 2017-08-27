@@ -102,7 +102,7 @@
           <div class="profile-info">
             <h4 class="subheader">Goals</h4>
             <p>Wide range of design and development services provided with a personal experience.</p>
-            <ul id="bullets">
+            <ul>
               <li>You get a single point of contact for your entire web solution.</li>
               <li>Through pleasant and attentive consultations, I can find out what your taste is, whether it is a simple informational or a lavish multimedia site.</li>
               <li>&nbsp;</li>
