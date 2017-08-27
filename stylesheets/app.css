@@ -6711,3 +6711,9 @@ th.hide-for-touch {
   background: #fefefe;
   border-color: #125688;
 }
+ 
+#bullets li:last child {
+  list-style-type: none;
+}
+
+
