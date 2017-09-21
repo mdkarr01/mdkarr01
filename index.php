@@ -7,7 +7,9 @@
     <title>Michael Karr web and mobile design &amp; development</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Raleway:500">
+      href="https://fonts.googleapis.com/css?family=Raleway:500|Sedgwick+Ave">
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <style>img:not([src]) {
       visibility: hidden;
@@ -21,7 +23,7 @@
     <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">michaelkarr.net</a></h1>
+      <h1><a class="hand" href="#">michaelkarr.net</a></h1>
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -64,7 +66,7 @@
     <h1>Responsive Web Design and Development</h1>
     <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today for a free consultation to find the best solution for you.</p>
   </div>
-  <div class="small-4 columns show-for-medium-up"><img data-original="img/ecommerce.jpg"></div>
+  <div class="small-4 columns show-for-medium-up"><img class="lazy" data-original="img/ecommerce.jpg"></div>
 </div>
 <!-- start cards -->
     <div class="row bottom">
@@ -198,6 +200,7 @@ if (isset($_POST['email'])) {
 <script>
     new LazyLoad();
 </script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
