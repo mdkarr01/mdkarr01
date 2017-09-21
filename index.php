@@ -64,15 +64,15 @@
 <div class="row main">
   <div class="small-8 columns main">
     <h1>Responsive Web Design and Development</h1>
-    <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today for a free consultation to find the best solution for you.</p>
+    <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today to find the best solution for you.</p>
   </div>
-  <div class="small-4 columns show-for-medium-up"><img class="lazy" data-original="img/ecommerce.jpg"></div>
+  <div class="small-4 columns show-for-medium-up"><img class="lazy" data-src="/img/ecommerce.jpg"></div>
 </div>
 <!-- start cards -->
     <div class="row bottom">
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" data-original="img/mobile.jpg" alt="iPhone">
+          <img class="inset" src="img/mobile.jpg" alt="iPhone">
           <div class="profile-info">
             <h4 class="subheader">Mobile First</h4>
             <p>Make mobile a priority. Not an afterthought</p>
@@ -86,7 +86,7 @@
       </div>
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" data-original="img/money.jpg" alt="Money">
+          <img class="inset" src="img/money.jpg" alt="Money">
           <div class="profile-info">
             <h4 class="subheader">E-Commerce</h4>
             <p>Create an online shop for your products and services.</p>
@@ -100,7 +100,7 @@
       </div>
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" data-original="img/handshake.jpg" alt="Two people shaking hands.">
+          <img class="inset" src="img/handshake.jpg" alt="Two people shaking hands.">
           <div class="profile-info">
             <h4 class="subheader">Goals</h4>
             <p>Wide range of design and development services provided with a personal experience.</p>
@@ -174,7 +174,6 @@ if (isset($_POST['email'])) {
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/lazyload.js"></script>
 
     <script>
     $(function() {
@@ -198,8 +197,20 @@ if (isset($_POST['email'])) {
   </script>
 
 <script>
-    new LazyLoad();
+    [].forEach.call(document.querySelectorAll('noscript'), function(noscript) {
+    var img = new Image();
+    img.setAttribute('data-src', '');
+    img.parentNode.insertBefore(img, noscript);
+    img.onload = function() {
+      img.removeAttribute('data-src');
+    };
+    img.src = noscript.getAttribute('data-src');
+  });
 </script>
+
+<noscript data-src="/img/ecommerce.jpg">
+  <img src="/img/ecommerce.jpg" data-src="" alt="">
+</noscript>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
