@@ -66,7 +66,7 @@
     <h1>Responsive Web Design and Development</h1>
     <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today for a free consultation to find the best solution for you.</p>
   </div>
-  <div class="small-4 columns show-for-medium-up"><img data-original="img/ecommerce.jpg"></div>
+  <div class="small-4 columns show-for-medium-up"><img class="lazy" data-original="img/ecommerce.jpg"></div>
 </div>
 <!-- start cards -->
     <div class="row bottom">
@@ -200,6 +200,7 @@ if (isset($_POST['email'])) {
 <script>
     new LazyLoad();
 </script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
