@@ -7,7 +7,9 @@
     <title>Michael Karr web and mobile design &amp; development</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Raleway:500">
+      href="https://fonts.googleapis.com/css?family=Raleway:500|Sedgwick+Ave">
+      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+      <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <script src="bower_components/modernizr/modernizr.js"></script>
     <style>img:not([src]) {
       visibility: hidden;
@@ -21,7 +23,7 @@
     <nav class="top-bar" data-topbar role="navigation">
   <ul class="title-area">
     <li class="name">
-      <h1><a href="#">michaelkarr.net</a></h1>
+      <h1><a class="hand" href="#">michaelkarr.net</a></h1>
     </li>
      <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
     <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
