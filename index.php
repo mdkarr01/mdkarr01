@@ -196,20 +196,13 @@ if (isset($_POST['email'])) {
   </script>
 
 <script>
-    [].forEach.call(document.querySelectorAll('noscript'), function(noscript) {
-    var img = new Image();
-    img.setAttribute('data-src', '');
-    img.parentNode.insertBefore(img, noscript);
-    img.onload = function() {
-      img.removeAttribute('data-src');
-    };
-    img.src = noscript.getAttribute('data-src');
-  });
+  [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+	img.setAttribute('src', img.getAttribute('data-src'));
+	img.onload = function() {
+		img.removeAttribute('data-src');
+	};
+});
 </script>
-
-<noscript data-src="/img/ecommerce.jpg">
-  <img src="/img/ecommerce.jpg" data-src="" alt="">
-</noscript>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
