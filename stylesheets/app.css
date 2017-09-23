@@ -10310,13 +10310,13 @@ th.hide-for-touch {
     padding-bottom: 9rem;
 }
 
-.lazy img {
+img {
     opacity: 1;
     transition: opacity 1.3s;
 }
 
 img[data-src] {
-    opacity: 0.25;
+    opacity: 0;
 }
 
 .tel {
