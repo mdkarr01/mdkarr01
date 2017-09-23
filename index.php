@@ -107,7 +107,6 @@
             <ul>
               <li>You get a single point of contact for your entire web solution.</li>
               <li>Through pleasant and attentive consultations, I can find out what your taste is, whether it is a simple informational or a lavish multimedia site.</li>
-              <li>&nbsp;</li>
             </ul>
           </div>
         </div>
