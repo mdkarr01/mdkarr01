@@ -162,9 +162,9 @@ if (isset($_POST['email'])) {
     </div>
     <div class="small-12 medium-6 medium-pull-6 columns">
       <p class="logo hide-for-small-only">michaelkarr.net</p>
-      <ul class="inline-list social">
+      <!-- <ul class="inline-list social">
         <a href="http://www.twitter.com/michaelkarr.io" target="_blank"><i class="fi-social-twitter"></i></a>
-      </ul>
+      </ul> -->
       <p class="copywrite">Copywrite not copyright &copy; <?php echo date("Y")?></p>
     </div>
   </div>
