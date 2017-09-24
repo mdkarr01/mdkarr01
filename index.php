@@ -8,8 +8,23 @@
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" type="text/css"
       href="https://fonts.googleapis.com/css?family=Raleway:500|Sedgwick+Ave">
-      <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-      <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
     <script src="bower_components/modernizr/modernizr.js"></script>
     <style>img:not([src]) {
       visibility: hidden;
@@ -112,21 +127,6 @@
         </div>
       </div>
     </div>
-<!-- end card -->
-
-<!-- <section class="hero2-section">
-  <div class="hero2-section-text">
-    <h1>Case Study</h1>
-    <h3>Gillespie Comedy</h3>
-  </div>
-</section>
-
-<div class="row">
-  <div class="img-promo-site large-6 columns show-for-large-up"><img src="./img/gill-dt-site.jpg" alt="Website of Steve Gillespie, actor and comedian"></div>
-  <div class="text-promo-site large-6-columns align-right"><h4>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus facere eaque natus obcaecati labore, vel ipsum ducimus tenetur maiores incidunt magnam tempora distinctio ipsam dolores. Quasi quaerat quam commodi a.
-  </h4></div>
-</div> -->
 
 <!-- start footer -->
 <footer class="footer" id="contact">
@@ -162,9 +162,6 @@ if (isset($_POST['email'])) {
     </div>
     <div class="small-12 medium-6 medium-pull-6 columns">
       <p class="logo hide-for-small-only">michaelkarr.net</p>
-      <!-- <ul class="inline-list social">
-        <a href="http://www.twitter.com/michaelkarr.io" target="_blank"><i class="fi-social-twitter"></i></a>
-      </ul> -->
       <p class="copywrite">Copywrite not copyright &copy; <?php echo date("Y")?></p>
     </div>
   </div>
