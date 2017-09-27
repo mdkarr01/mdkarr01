@@ -10008,7 +10008,7 @@ th.hide-for-touch {
     background: url("../img/apple.jpg") no-repeat center center;
     background-size: cover;
     height: 100vh;
-    border-bottom: solid 0.5px black;
+    box-shadow: 0 4px 2px -2px gray;
 }
 
 .hero:before {
