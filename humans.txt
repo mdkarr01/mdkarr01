@@ -5,4 +5,4 @@
 /* SITE */
   Standards: HTML5, CSS3
   Components: jQuery, Orbit, Reveal
-  Software: Git, Photoshop, CodeKit, Sublime Text 2, Transmit
+  Software: Git, Photoshop, CodeKit, Sublime Text 3, Transmit

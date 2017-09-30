@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michael Karr web and mobile design &amp; development</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
-    <link rel="stylesheet" type="text/css"
-      href="https://fonts.googleapis.com/css?family=Raleway:500|Sedgwick+Ave">
       <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
       <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
@@ -30,6 +28,7 @@
       visibility: hidden;
     }</style>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli|Sedgwick+Ave" rel="stylesheet">
   </head>
   <body ng-app="app">
 <?php include_once ("analyticstracking.php");?>
