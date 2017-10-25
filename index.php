@@ -1,37 +1,17 @@
 <!doctype html>
-<?php date_default_timezone_set('America/Chicago');?>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michael Karr web and mobile design &amp; development</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-      <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-      <link rel="manifest" href="/manifest.json">
-      <meta name="msapplication-TileColor" content="#ffffff">
-      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-      <meta name="theme-color" content="#ffffff">
-    <script src="bower_components/modernizr/modernizr.js"></script>
-    <style>img:not([src]) {
-      visibility: hidden;
-    }</style>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet">
+    <link rel="preload" href="https://www.michaelkarr.net/img/apple.jpg" as="image">
     <link href="https://fonts.googleapis.com/css?family=Muli|Sedgwick+Ave" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a4c244ec0e.js"></script>
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
   <body ng-app="app">
-<?php include_once ("analyticstracking.php");?>
     <!-- start top bar -->
     <div class="fixed">
     <nav class="top-bar" data-topbar role="navigation">
@@ -46,7 +26,7 @@
   <section class="top-bar-section">
     <!-- Right Nav Section -->
     <ul class="right">
-      <li class="active"><a href="tel:13192709334">Call now for a free consultation: <i class="fa fa phone"></i> <span class="tel">1.319.270.9334</span></li>
+      <li class="active"><a href="tel:13192709334">Call now for a free consultation: <i class="fa fa-phone" aria-hidden="true"></i> <span class="tel">1.319.270.9334</span></li>
       <!-- <li class="has-dropdown"> -->
         <!-- <a href="#">Menu</a>
         <ul class="dropdown"> -->
@@ -66,12 +46,6 @@
       <p>I craft custom websites that deliver results for entrepreneurs, organizations and established brands. Have an idea? Let's bring it to life together.
       </p>
     </div>
-<!--     <div class="rounded-social-buttons">
-      <a class="social-button facebook" href="https://www.facebook.com/gillespiecomedy" target="_blank"></a>
-      <a class="social-button twitter" href="https://twitter.com/epigillespie" target="_blank"></a>
-      <a class="social-button youtube" href="https://www.youtube.com/user/sgillespiecomedy" target="_blank"></a>
-      <a class="social-button instagram" href="https://www.instagram.com/epigillespie/" target="_blank"></a>
-    </div> -->
   </div>
 </section>
 <!-- end hero header -->
@@ -80,13 +54,13 @@
     <h1>Responsive Web Design and Development</h1>
     <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today to find the best solution for you.</p>
   </div>
-  <div class="small-4 columns show-for-medium-up"><img class="lazy" data-src="/img/ecommerce.jpg"></div>
+  <div class="small-4 columns show-for-medium-up"><img class="lozad" src="./img/ecommerce.jpg"></div>
 </div>
 <!-- start cards -->
     <div class="row bottom">
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" src="img/mobile.jpg" alt="iPhone">
+          <img class="inset" src="./img/mobile.jpg" alt="iPhone">
           <div class="profile-info">
             <h4 class="subheader">Mobile First</h4>
             <p>Make mobile a priority. Not an afterthought</p>
@@ -100,7 +74,7 @@
       </div>
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" src="img/money.jpg" alt="Money">
+          <img class="inset" src="./img/money.jpg" alt="Money">
           <div class="profile-info">
             <h4 class="subheader">E-Commerce</h4>
             <p>Create an online shop for your products and services.</p>
@@ -114,7 +88,7 @@
       </div>
       <div class="medium-4 columns">
         <div class="profile-card">
-          <img class="inset" src="img/handshake.jpg" alt="Two people shaking hands.">
+          <img class="inset" src="./img/handshake.jpg" alt="Two people shaking hands.">
           <div class="profile-info">
             <h4 class="subheader">Goals</h4>
             <p>Wide range of design and development services provided with a personal experience.</p>
@@ -131,16 +105,13 @@
 <footer class="footer" id="contact">
   <div class="row">
     <div class="small-12 medium-6 medium-push-6 columns">
-      <p class="logo show-for-small-only"><i class="fi-target"></i> michaelkarr.net</p>
+      <p class="logo show-for-small-only">michaelkarr.net</p>
       <form class="footer-form" action = "email.php" method = "post">
         <div class="row">
           <div class="medium-9 medium-push-3 columns">
             <label>
-              <label for="email" class="contact">Contact Me</label>
-              <input type="email" id="email" name="email" value="<?php
-if (isset($_POST['email'])) {
-	echo $_POST['email'];
-}?>" placeholder="Email Address" />
+              <label for="email" class="contact"> <i class="fa fa-email" aria-hidden="true"></i> Contact Me</label>
+              <input type="email" id="email" name="email" placeholder="Email Address" />
             </label>
           </div>
         </div>
@@ -161,57 +132,29 @@ if (isset($_POST['email'])) {
     </div>
     <div class="small-12 medium-6 medium-pull-6 columns">
       <p class="logo hide-for-small-only">michaelkarr.net</p>
-      <p class="copywrite">Copywrite not copyright &copy; <?php echo date("Y")?></p>
+      <p class="copywrite">Copywrite not copyright &copy; 2017-18</p>
     </div>
   </div>
 </footer>
 <!-- end footer -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script> 
+    <!-- <script>
+      const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+observer.observe();
+    </script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-66871250-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-    <script>
-    $(function() {
-      $('a[href*="#"]:not([href="#"])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html, body').animate({
-              scrollTop: target.offset().top
-            }, 2000);
-            return false;
-          }
-        }
-      });
-    });
-    </script>
-
+  gtag('config', 'UA-66871250-2');
+</script>
   <script>
     $(document).foundation();
   </script>
-
-<script>
-  [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-	img.setAttribute('src', img.getAttribute('data-src'));
-	img.onload = function() {
-		img.removeAttribute('data-src');
-	};
-});
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];
-a.async=1;
-a.src=g;
-m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-66871250-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
   </body>
 </html>
