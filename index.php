@@ -1,17 +1,19 @@
 <!doctype html>
+<?php date_default_timezone_set('America/Chicago');?>
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Michael Karr web and mobile design &amp; development</title>
-    <link rel="preload" href="https://www.michaelkarr.net/img/apple.jpg" as="image">
-    <link href="https://fonts.googleapis.com/css?family=Muli|Sedgwick+Ave" rel="stylesheet">
+    <link rel="preload" href="https://www.michaelkarr.net/img/apple.jpg" as="fetch">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Muli|Sedgwick+Ave" as="fetch">
     <script src="https://use.fontawesome.com/a4c244ec0e.js"></script>
     <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script> -->
     <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
-  <body ng-app="app">
+<?php include_once ("analyticstracking.php");?>
+<body ng-app="app">
     <!-- start top bar -->
     <div class="fixed">
     <nav class="top-bar" data-topbar role="navigation">
@@ -54,8 +56,9 @@
     <h1>Responsive Web Design and Development</h1>
     <p>Mobile devices account for 55% of Internet usage in the U.S., Your desktop computer for 45%. Responsive design is no longer a luxury, but a necessity. Designs for the web need to be thought about as fluid canvasses that both look good and react at all different screen sizes. <a href="#contact">Contact me</a> today to find the best solution for you.</p>
   </div>
-  <div class="small-4 columns show-for-medium-up"><img class="lozad" src="./img/ecommerce.jpg"></div>
-</div>
+  <div class="small-4 columns show-for-medium-up">
+    <img data-src="./img/ecommerce.jpg" alt="credit cards and other e-commmerce tools">
+  </div>
 <!-- start cards -->
     <div class="row bottom">
       <div class="medium-4 columns">
@@ -132,18 +135,21 @@
     </div>
     <div class="small-12 medium-6 medium-pull-6 columns">
       <p class="logo hide-for-small-only">michaelkarr.net</p>
-      <p class="copywrite">Copywrite not copyright &copy; 2017-18</p>
+      <p class="copywrite">&copy; 2017-18</p>
     </div>
   </div>
 </footer>
 <!-- end footer -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script> 
-    <!-- <script>
-      const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-observer.observe();
-    </script> -->
+    <script src="js/app.js"></script>
+    <script type="text/javascript">[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+      img.setAttribute('src', img.getAttribute('data-src'));
+      img.onload = function() {
+        img.removeAttribute('data-src');
+      };
+    });
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-66871250-2"></script>
 <script>

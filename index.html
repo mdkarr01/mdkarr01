@@ -77,7 +77,7 @@
         <a href="#contact">Contact me</a> today to find the best solution for you.</p>
     </div>
     <div class="small-4 columns show-for-medium-up">
-      <img class="lozad" src="/img/ecommerce.jpg">
+      <img data-src="./img/ecommerce.jpg" alt="credit cards and other e-commmerce tools">
     </div>
   </div>
   <!-- start cards -->
@@ -167,10 +167,12 @@
   <script src="bower_components/jquery/dist/jquery.min.js"></script>
   <script src="bower_components/foundation/js/foundation.min.js"></script>
   <script src="js/app.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-  <script>
-    const observer = lozad(); // lazy loads elements with default selector as '.lozad'
-    observer.observe();
+  <script type="text/javascript">[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+    img.setAttribute('src', img.getAttribute('data-src'));
+    img.onload = function() {
+      img.removeAttribute('data-src');
+    };
+  });
   </script>
   <script>
     $(document).foundation();

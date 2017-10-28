@@ -10061,6 +10061,10 @@ th.hide-for-touch {
     }
 }
 
+#commerce-image {
+    margin-top: 1rem;
+}
+
 
 /* Profile Card */
 
@@ -10312,7 +10316,7 @@ th.hide-for-touch {
 
 img {
     opacity: 1;
-    transition: opacity 1.3s;
+    transition: opacity 8.3s;
 }
 
 img[data-src] {
